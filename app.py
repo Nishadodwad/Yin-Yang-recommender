@@ -21,7 +21,7 @@ def build_index(df):
 @st.cache_data
 def load_data():
     # Replace with your dataset path
-    df = pd.read_csv("products.csv")
+    df = pd.read_csv("data/data-set (1).json")
     return df
 
 # Streamlit UI
